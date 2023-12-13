@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: #45584d;
+    display: grid;
+    place-items: center;
+    height: 600px;
+}
+
+.shell {
+    background-color: #000000;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;    
+    height: 400px;
+    width: 400px;
+}
+.glass {
+    background-color: #808080;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.triangle {
+    display: grid;
+    place-items: center;
+    width: 0;
+    height: 0;
+    border: 75px solid transparent;
+    border-top: 0;
+    border-bottom: 115px solid blue;
+}
+.text {
+    position: absolute;
+    transform: translateX(40px);
+    transform: translateY(85px);
+    color: white;
+}
+
