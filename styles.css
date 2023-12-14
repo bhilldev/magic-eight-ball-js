@@ -1,4 +1,4 @@
-* {
+ * {
     box-sizing: border-box;
     text-align: center;
 }
@@ -43,4 +43,3 @@ body {
     transform: translateY(85px);
     color: white;
 }
-
