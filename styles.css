@@ -36,6 +36,7 @@ body {
     border: 75px solid transparent;
     border-top: 0;
     border-bottom: 115px solid blue;
+    opacity: 1;
 }
 .text {
     position: absolute;
